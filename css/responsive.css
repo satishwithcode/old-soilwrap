@@ -1,0 +1,959 @@
+
+@media(max-width:1024px){
+  #Home{
+    background-image: url(../img/sunset-1024px.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+  }
+  .header{
+    padding:0;
+    top: 2.5rem;
+    left: 1rem;
+  }
+  .nav-menu .close-nav-menu{
+    top: 4%;
+    right: 7%;
+  }
+  .about-section .about-img .img-box img{
+    height: 50vh;
+  }
+  .about-section .about-img{
+    flex: 0 0 45%;
+    max-width: 45%;
+    padding: .5rem;
+  }
+  .about-section .about-info{
+    flex: 0 0 49%;
+    max-width: 49%;
+    padding: .5rem
+  }
+  .about-section .about-img{
+    padding: 1rem;
+    height: 70vh;
+  }
+  .about-section .about-img .img-box img{
+    height: 70vh;
+  }
+  .about-section .timeline .timeline-item-inner .icon{
+    transform: translateY(5rem);
+    top: -.7rem;
+  }
+  .about-section .timeline{
+    flex: 0 0 100%;
+    max-width: 98%;
+    padding: 1rem;
+  }
+  .team-section .card{
+    height: 32rem;
+    margin: 1rem .4rem;
+    padding: 0;
+  }
+  .team-section .card:hover{
+    height: 48.5rem;
+  }
+  .team-section .card-item{
+    padding: 1rem 0;
+  }
+  .team-section .card .img-box{
+    width: 28rem;
+    height: 28rem;
+  }
+  .team-section .card .content{
+    margin-top: -14.5rem;
+  }
+  .team-section .card:hover .content{
+    margin-top: -2rem;
+  }
+  .team-section .card .content .hamburger{
+    transform: translateX(80%);
+    margin-bottom: 1rem;
+  }
+  .team-section .card .social-icon{
+    top: -6.4rem;
+    width: 100%;
+  }
+  .team-section .card:hover .content{
+    margin-top: -1rem;
+  }
+  .team-section .card:hover .social-icon{
+    margin-top: 3rem;
+  }
+  .team-popup .close-popup-menu{
+    right: 9%;
+    top: 6%;
+  }
+  .contact-section .w-50{
+    flex: 0 0 50%;
+    min-width: 50%;
+  }
+  .header .hamburger-btn{
+    top: 4%;
+    right: 4%;
+  }
+}
+@media(max-width:901px){
+  .header{
+    padding:0;
+    top: 2.5rem;
+    left: 1rem;
+  }
+  .about-section .about-img{
+    height: 60vh;
+  }
+  .about-section .about-img .img-box img{
+    height: 60vh;
+  }
+  .service-section .service-item{
+    flex: 0 0 50%;
+    width: 50%;
+  }
+  .team-section .card{
+    flex: 0 0 50%;
+    max-width: 46%;
+    height: 43rem;
+    margin:10rem 1.5rem;
+  }
+  .team-section .card:hover{
+    height: 57rem;
+  }
+  .team-section .card-item{
+    position: relative;
+    display:contents;
+    padding: 4rem 0;
+  }
+  .team-section .card .img-box{
+    width:36rem;
+    height: 36rem;
+  }
+  .team-section .card .content{
+    margin-top: -10rem;
+  }
+  .team-section .card:hover .content{
+    margin-top: 1rem;
+  }
+  .team-popup .close-popup-menu{
+    right: 9%;
+    top: 6%;
+  }
+  .team-popup .description{
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+  .team-popup .info{
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  .team-popup .tp-img .check-about-img .img-box{
+    padding: .7rem;
+  }
+  .team-popup .tp-img .check-about-img .img-box img{
+    max-width: 96%;
+  }
+  .team-popup .tp-img .check-about-img .social-icon a{
+    margin-left: 1rem;
+  }
+  .contact-section .contact-item-inner{
+    padding: 3rem 1.5rem;
+    margin: .5rem;
+  }
+}
+@media(max-width:768px){
+  #Home{
+    background-image: url(../img/sunset-768px.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+  }
+  .header{
+    padding:0;
+    top: 2rem;
+    left: 1rem;
+  }
+  .header .logo .krishna-img{
+    width: 7rem;
+    height: 7rem;
+    opacity: .8;
+  }
+  .nav-menu .close-nav-menu{
+    top: 4%;
+    right: 8%;
+  }
+  .header .logo .krishna-img{
+    width: 7rem;
+    height: 7rem;
+  }
+  .header-section .home-text p{
+    font-size: 3.2rem;
+    top: 54%;
+  }
+  .header-section .home-text h2{
+    font-size: 7.5rem;
+    top: 63%;
+  }
+  .header-section .home-text strong{
+    font-size: 3.1rem;
+    top: 76%;
+  }
+  .effect-1{
+    bottom: 3%;
+    right: 41%;
+  }
+  .effect-2{
+      bottom: 15%;
+  }
+  .effect-3{
+      height: 11rem;
+      width:11rem;
+      left: 45%;
+  }
+  .effect-4{
+      left: 18%;
+      top: 28%;
+  }
+  .effect-5{
+    right: 5%;
+    top: 28%;
+  }
+  .about-section .skills .skill-item{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about-section .about-img{
+    flex: 0 0 100%;
+    max-width: 98.5%;
+    padding: .5rem;
+    height: 100vh;
+  }
+  .about-section .about-img .img-box img{
+    height: 100vh;
+  }
+  .about-section .about-info{
+    flex: 0 0 98%;
+    max-width: 98%;
+    padding:4rem .5rem;
+  }
+  .service-section .service-item{
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  .about-section .timeline .timeline-item-inner .icon{
+    top: -4.7rem;
+    right: 1rem;
+  }
+  .about-section .timeline .timeline-item{
+    padding: 0 1rem;
+  }
+  .about-section .timeline .timeline-item-inner span{
+    padding: 1rem 4rem 1rem;
+  }
+  .service-section .service-item-inner{
+    flex: 0 0 100%;
+    max-width: 98%;
+    padding: 5rem 0 5rem;
+    margin: .8rem .7rem;
+  }  
+  .team-section .card{
+    flex: 0 0 100%;
+    max-width: 60%;
+    height: 45rem;
+    margin: 0 15rem;
+    margin-bottom: 10rem;   
+  }
+  .team-section .card-item{
+    position: relative;
+    display:inline-table;
+  }
+  .team-section .card:hover{
+    height: 60.5rem;
+  }
+  .team-section .card .img-box{
+    width: 37rem;
+    height: 37rem;
+    left: 10%;
+  }
+  .team-section .card:hover .content{
+    margin-top: 3rem;
+  }
+  .team-section .card:hover .social-icon{
+    top: -5.5rem;
+  }
+  .team-section .card .social-icon{
+    top: -4rem;
+  }
+  .team-section .card .content .hamburger{
+    transform: translateX(120%);
+  }
+  .team-popup .close-popup-menu{
+    right: 9%;
+    top: 6%;
+  }
+  .team-popup .info{
+    margin-top: 3rem;
+  }
+  .team-popup .tp-main{
+    max-width: 110rem;
+    width: 80%;
+  }
+  .team-popup .tp-img{
+    display: block;
+  }
+  .team-popup .description,
+  .team-popup .info{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .team-popup .tp-img .check-about-img{
+    padding: 2rem;
+  }
+  .team-popup .tp-img .check-about-img .img-box{
+    padding: 1.3rem;
+  }
+  .team-popup .tp-img .check-about-img .img-box img{
+    max-width: 110%;
+    height: 90vh;
+  }
+  .team-popup .tp-img .check-about-img .social-icon{
+    margin-right: 1.8rem;
+  }
+  .team-popup .tp-img .check-about-info{
+    max-width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .contact-section .contact-item{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contact-section .w-50{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .about-section .timeline{
+    padding: 0;
+  }
+}
+@media(max-width:587px){
+  .header{
+    padding:0;
+    top: 2.5rem;
+    left: 1rem;
+  }
+  .nav-menu .close-nav-menu{
+    top: 4%;
+    right: 8%;
+  }
+  .team-section .card{
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: 49rem;
+    margin: 0 5rem;
+    margin-bottom: 10rem;   
+  }
+  .team-section .card:hover{
+    height: 62rem;
+  }
+  .team-section .card-item{
+    position: relative;
+    display:inline-table;
+  }
+  .team-section .card .img-box{
+    width: 40rem;
+    height: 40rem;
+    left: 8.5%;
+  }
+  .team-section .card .content{
+    margin-top: -8rem;
+  }
+  .team-section .card:hover .content{
+    margin-top: 3rem;
+  }
+  .team-popup .tp-img .check-about-img{
+    padding: 1rem;
+  }
+  .team-popup .tp-img .check-about-img .img-box{
+    padding: 1rem;
+  }
+  .team-popup .tp-img .check-about-img .img-box img{
+    max-width: 97%;
+    height: 65vh;
+  }
+  .contact-section .w-50{
+    flex: 0 0 99%;
+    max-width: 99%;
+  }
+  footer{
+    flex:  0 0 99%;
+    max-width: 98%;
+  }
+  footer .footer-text h1{
+    font-size: 6rem;
+    padding:.5rem 0;
+  }
+  footer .footer-text p{
+    padding: .5rem 0;
+  }
+  footer .social-link{
+    padding:0 .5rem;
+  }
+  footer .copy p{
+    font-size: 1.85rem;
+  }
+  .about-section .about-img{
+    flex: 0 0 100%;
+    max-width: 98%;
+}
+@media(max-width:480px){
+  #Home{
+    background-image: url(../img/sunset-425px.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+  }
+  .header{
+    padding:0;
+    top: 2.5rem;
+    left: 1rem;
+  }
+  .nav-menu .close-nav-menu{
+    top: 4%;
+    right: 8%;
+  }
+  .team-section .card{
+    flex: 0 0 100%;
+    max-width: 98%;
+    height: 47rem;
+    margin: 0 1rem;
+    margin-bottom: 10rem;   
+  }
+  .team-section .card .img-box{
+    width: 40rem;
+    height: 40rem;
+    left: 6.5%;
+  }
+  .service-section .service-item-inner{
+    flex: 0 0 100%;
+    max-width: 97%;
+  }
+  .about-section .about-info{
+    flex: 0 0 98%;
+    max-width: 97%;
+  }
+    
+}
+@media(max-width:451px){
+  #Home{
+    width: 100%;
+    height: 87vh;
+    opacity: .8;
+    background: url("../img/sunset-425px.jpeg") top right no-repeat;
+    background-size: 100% 87vh;
+    position: relative;
+  }
+  .header{
+    padding:0;
+    top: 2rem;
+    left: .5rem;
+  }
+  .header .hamburger-btn{
+    top: 3%;
+    right: 7%;
+  }
+  .nav-menu .close-nav-menu{
+    top: 2.8%;
+    right: 13%;
+  }
+  .nav-menu ul li a{
+    font-size: 2rem;
+  }
+  .header-section .home-text p{
+    top: 57%;
+  }
+  .header-section .home-text h2{
+    font-size: 5.9rem;
+    top: 64.5%;
+  }
+  .header-section .home-text strong{
+    top: 72.5%;
+    font-size:3rem;
+  }
+  .effect-4{
+    left: 17%;
+    top: 40%;
+  }
+  .effect-5{
+    right: 12%;
+  }
+  .social-links{
+    right: 0;
+  }
+  .social-links a{
+    font-size: 3rem;
+  }
+  .about-section .about-img{
+    height: 65vh;
+  }
+  .about-section .about-img .img-box img{
+    height: 65vh;
+  }
+  .about-section .about-tabs{
+    padding: 8rem 0 4rem;
+  }
+  .about-section .skills .skill-item{
+    margin-bottom: 2.5rem;
+  }
+  .team-section .card .img-box{
+    width: 33.5rem;
+    height: 33.5rem;
+    top: -6.5rem;
+    left:5.8%;
+  }
+  .team-section .card{
+    flex: 0 0 100%;
+    max-width: 98%;
+    height: 41rem;
+    margin: 0 3rem;
+    margin-bottom: 15rem;   
+  }
+  .team-section .card:hover{
+    height: 56rem;
+  }
+  .team-section .card .content{
+    margin-top: -11.8rem;
+  }
+  .team-section .card:hover .content{
+    margin-top: 1.5rem;
+  }
+  .team-section .card:hover .social-icon{
+    margin-top: 3rem;
+  }
+  .team-section .card .social-icon{
+    width: 100%;
+    top: -3rem;
+  }
+  .team-section .card .content .hamburger{
+    transform: translateX(100%);
+  }
+  .team-popup .close-popup-menu{
+    right: 5%;
+    top: 6%;
+  }
+  .team-popup .info{
+    margin-top: 3rem;
+  }
+  .team-popup .tp-main{
+    max-width: 130rem;
+    width: 85%;
+  }
+  .team-popup .tp-img{
+    display: block;
+  }
+  .team-popup .description,
+  .team-popup .info{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .team-popup .tp-img .check-about-img .img-box{
+    padding: .8rem;
+  }
+  .team-popup .tp-img .check-about-img .img-box img{
+    max-width: 96.5%;
+    height: 55vh;
+  }
+  .team-popup .tp-img .check-about-img .social-icon{
+    margin-right: 1.8rem;
+  }
+  .team-popup .tp-img .check-about-info{
+    max-width: 100%;
+    padding: .5rem;
+    margin-top: 2rem;
+  }
+  .team-popup .tp-prev{
+    left: .5rem;
+  }
+  .team-popup .tp-next{
+    right: .5rem;
+  }
+  
+  .contact-section .contact-item{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contact-section .w-50{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contact-section .input-group .input-control{
+    width: 93%;
+  }
+  .contact-section .input-group{
+    margin:2rem 1rem;
+  }
+  .contact-section .input-group textarea.input-control{
+    padding-top: 1.5rem;
+  }
+    
+}
+@media(max-width:427px){
+  #Home{
+    width: 100%;
+    height: 85vh;
+    background: url("../img/sunset-425px.jpeg") top right no-repeat;
+    background-size: 100% 85vh;
+    position: relative;
+  }
+  .header{
+    padding:0;
+    top: 2rem;
+    left: .5rem;
+  }
+  .header .logo .krishna-img{
+    width: 6rem;
+    height: 6rem;
+    opacity: .8;
+  }
+  .nav-menu .close-nav-menu{
+    top: 4%;
+    right: 12%;
+  }
+  .header-section .home-text p{
+    top: 57%;
+  }
+  .header-section .home-text h2{
+    font-size: 5.4rem;
+    top: 64.5%;
+  }
+  .header-section .home-text strong{
+    top: 73%;
+    font-size:3rem;
+  }
+  .effect-1{
+    bottom: .80%;
+  }
+  .effect-4{
+    left: 17%;
+    top: 40%;
+  }
+  .effect-5{
+    right: 15%;
+    top: 28%;
+  }
+  .social-links{
+    right: 0;
+  }
+  .social-links a{
+    font-size: 3rem;
+  }
+  .about-section .about-img{
+    flex: 0 0 100%;
+    max-width: 97.5%;
+    padding: .5rem;
+    height: 60vh;
+  }
+  .about-section .about-img .img-box img{
+    height: 60vh;
+  }
+  .about-section .about-tabs{
+    padding: 8rem 0 4rem;
+  }
+  .about-section .skills .skill-item{
+    margin-bottom: 2.5rem;
+  }
+  .about-section .timeline .timeline-item{
+    flex: 0 0 100%;
+    max-width: 95%;
+  }
+  .team-section{
+    padding: 8rem 0 1rem;
+  }
+  .team-section .card-item{
+    height: 80vh;
+  }
+  .team-section .card .img-box{
+    width: 31.8rem;
+    height: 31.8rem;
+    top: -6.5rem;
+    left:6.5%;
+  }
+  .team-section .card{
+    flex: 0 0 100%;
+    max-width: 86%;
+    height: 38rem;
+    margin: 0 3rem;
+    margin-bottom: 15rem;   
+  }
+  .team-section .card:hover{
+    height: 55rem;
+  }
+  .team-section .card-item{
+    position: relative;
+    display:inline-table;
+  }
+  .team-section .card .content{
+    margin-top: -11rem;
+  }
+  .team-section .card:hover .content{
+    margin-top: 1rem;
+  }
+  .team-section .card .social-icon{
+    top:-7.5rem;
+  }
+  .team-section .card:hover .social-icon{
+    margin-top: 2.3rem;
+  }
+  .team-popup .close-popup-menu{
+    right: 5%;
+    top: 6%;
+  }
+  .team-popup .info{
+    margin-top: 3rem;
+  }
+  .team-popup .tp-main{
+    max-width: 130rem;
+    width: 85%;
+  }
+  .team-popup .tp-img{
+    display: block;
+  }
+  .team-popup .description,
+  .team-popup .info{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .team-popup .tp-img .check-about-img .img-box{
+    padding: .7rem;
+  }
+  .team-popup .tp-img .check-about-img .img-box img{
+    max-width: 96.4%;
+    height: 50vh;
+  }
+  .team-popup .tp-img .check-about-img .social-icon{
+    margin-right: 1.8rem;
+  }
+  .team-popup .tp-img .check-about-info{
+    max-width: 100%;
+    padding: .5rem;
+    margin-top: 2rem;
+  }
+  .team-popup .tp-prev{
+    left: .5rem;
+  }
+  .team-popup .tp-next{
+    right: .5rem;
+  }
+  
+  .contact-section .contact-item{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contact-section .w-50{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contact-section .input-group .input-control{
+    width: 90%;
+  }
+  .contact-section .input-group{
+    margin:2rem 1rem;
+  }
+  .contact-section .input-group textarea.input-control{
+    padding-top: 1.5rem;
+  }
+  footer{
+    flex:  0 0 100%;
+    max-width: 100%;
+  }
+  footer .footer-text h1{
+    font-size: 6rem;
+    padding:.5rem 0;
+  }
+  footer .footer-text p{
+    padding: .5rem 0;
+  }
+  footer .social-link{
+    padding:0 .5rem;
+  }
+  footer .copy p{
+    font-size: 1.85rem;
+  }
+  .header .hamburger-btn{
+    top: 4%;
+    right: 4%;
+  }  
+}
+
+@media(max-width:377px){
+  .style-switcher{
+    width: 10rem;
+  }
+  .effect-3{
+    left: 40%;
+  }
+  .about-section .about-tabs{
+    padding: 8rem 0 3rem;
+  }
+  .about-section .about-tabs .tab-item{
+    padding: .5rem .5rem;
+  }
+  .about-section .about-img{
+    height: 50vh;
+  }
+  .about-section .about-img .img-box img{
+    height: 50vh;
+  }
+  .team-section .card .img-box{
+    width: 31rem;
+    height: 31rem;
+    top: -6.5rem;
+    left:6.5%;
+  }
+  .team-section .card{
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: 38rem;
+    margin: 0 1rem;
+    margin-bottom: 15rem;   
+  }
+  .team-popup .tp-img .check-about-img .img-box img{
+    height: 40vh;
+  }
+  .team-popup .tp-img .check-about-img .social-icon a{
+    margin-left: 1rem;
+  }
+  .team-popup .tp-img .check-about-info .btn-1{
+    margin: 2rem 2rem 0 0; 
+  }
+  footer .footer-text h1{
+    font-size: 5rem;
+    padding:.5rem 0;
+  }
+  footer .footer-text p{
+    font-size: 1.5rem;
+    padding: .5rem 0;
+  }
+  footer .social-link{
+    padding:0 .5rem;
+  }
+  footer .copy p{
+    font-size: 1.6rem;
+  }
+}
+@media(max-width:320px){
+  #Home{
+    width: 100%;
+    height:65vh;
+    background: url("../img/sunset-425px.jpeg") top right no-repeat;
+    background-size: 100% 65vh;
+    position: relative;
+  }
+  .header{
+    padding:0;
+    top: 2rem;
+    left: .5rem;
+  }
+  .header .logo .krishna-img{
+    width: 5rem;
+    height: 5rem;
+    opacity: .8;
+  }
+  .header-section .home-text p{
+    top: 57%;
+    font-size: 2.5rem;
+  }
+  .header-section .home-text h2{
+    font-size: 4.3rem;
+    top: 64.5%;
+  }
+  .header-section .home-text strong{
+    top: 74.5%;
+    font-size:2.5rem;
+  }
+  .effect-1{
+    width: 2rem;
+    height: 2rem;
+  }
+  .effect-3{
+    left: 25%;
+    height: 9rem;
+    width:9rem;
+    border: 2rem solid var(--skin-color);
+    top: -9rem;
+  }
+  .effect-5{
+    height: 4rem;
+    width: 4rem;
+    right: 20%;
+  }
+  .social-links a{
+    margin: 0 .1rem;
+  }
+  .about-section .about-img{
+    height: 50vh;
+  }
+  .about-section .about-img .img-box img{
+    height: 50vh;
+  }
+  .team-section .card .img-box{
+    width: 25.5rem;
+    height: 25.5rem;
+    top: -4rem;
+    left:6.5%;
+  }
+  .team-section .card{
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: 33.1rem;
+    margin: 0 1rem;
+    margin-bottom: 9rem;   
+  }
+  .team-section .card:hover{
+    height: 54rem;
+  }
+  .team-section .card .content{
+    margin-top: -13rem;
+  }
+  .team-section .card:hover .content{
+    margin-top: 1rem;
+  }
+  .team-section .card .social-icon a{
+    padding: .3rem;
+    font-size: 2rem;
+  }
+  .team-section .card:hover .content{
+    margin-top: 3rem;
+  }
+  .team-section .card:hover .social-icon{
+    top: -4rem;
+  }
+  .team-section .card .social-icon{
+    top: -6rem;
+  }
+  .team-section .card .content .hamburger{
+    transform: translateX(60%);
+  }
+  .team-popup .tp-img .check-about-img .img-box img{
+    width: 95.5%;
+    height: 35vh;
+  }
+
+  footer{
+    flex:  0 0 100%;
+    max-width: 100%;
+  }
+  footer .footer-text h1{
+    font-size: 4rem;
+    padding: 0;
+  }
+  footer .footer-text p{
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  footer .social-link{
+    padding:0;
+    margin-top: 1rem;
+  }
+  footer .social-link a{
+    font-size: 2rem;
+    padding: .2rem;
+  }
+  footer .copy p{
+    font-size: 1.5rem;
+  }
+}
