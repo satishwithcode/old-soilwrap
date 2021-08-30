@@ -488,10 +488,10 @@
     font-size: 3rem;
   }
   .about-section .about-img{
-    height: 65vh;
+    height: 58vh;
   }
   .about-section .about-img .img-box img{
-    height: 65vh;
+    height: 58vh;
   }
   .about-section .about-tabs{
     padding: 8rem 0 4rem;
@@ -555,7 +555,7 @@
   }
   .team-popup .tp-img .check-about-img .img-box img{
     max-width: 96.5%;
-    height: 55vh;
+    height: 48vh;
   }
   .team-popup .tp-img .check-about-img .social-icon{
     margin-right: 1.8rem;
@@ -722,7 +722,7 @@
   }
   .team-popup .tp-img .check-about-img .img-box img{
     max-width: 96.4%;
-    height: 50vh;
+    height: 43vh;
   }
   .team-popup .tp-img .check-about-img .social-icon{
     margin-right: 1.8rem;
