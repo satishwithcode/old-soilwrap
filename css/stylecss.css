@@ -679,7 +679,8 @@ span{
   font-size: 1.6rem;
   color: var(--text-black-600);
   line-height: 2.6rem;
-  margin: 1.5rem 0 0; 
+  margin: 1.5rem 0 0;
+  text-transform: capitalize;
 }
 
 
