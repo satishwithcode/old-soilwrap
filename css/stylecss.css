@@ -562,6 +562,13 @@ span{
   font-weight: 500;
   text-transform: capitalize;
 }
+.about-section .about-tabs .tab-item a{
+  transition: all 0.3s ease;
+  font-size: 1.6rem;
+  color: #666666;
+  font-weight: 500;
+  text-transform: capitalize;
+}
 .about-section .about-tabs .tab-item:hover:not(.active){
   opacity: 0.6;
 }
