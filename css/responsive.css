@@ -457,11 +457,11 @@
     right: 7%;
   }
   .nav-menu{
-    transition: all 0.3s ease;
-    transform: translateX(100%);
+    transition: all 0.8s ease;
+    transform: translateY(100%);
   }
   .nav-menu.open{
-    transform: translateX(-.1rem);
+    transform: translateY(0%);
   }
   .nav-menu .close-nav-menu{
     top: 2.8%;
