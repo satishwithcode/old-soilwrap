@@ -44,7 +44,7 @@
     padding: 1rem;
   }
   .team-section .card{
-    height: 32rem;
+    height: 32.9rem;
     margin: 1rem .4rem;
     padding: 0;
   }
@@ -64,6 +64,9 @@
   .team-section .card:hover .content{
     margin-top: -2rem;
   }
+  .team-section .card .content p{
+    font-size: 1.4rem;
+  }
   .team-section .card .content .hamburger{
     transform: translateX(80%);
     margin-bottom: 1rem;
@@ -77,6 +80,9 @@
   }
   .team-section .card:hover .social-icon{
     margin-top: 3rem;
+  }
+  .team-section .card .social-icon a{
+    margin: .5rem;
   }
   .team-popup .close-popup-menu{
     right: 9%;
