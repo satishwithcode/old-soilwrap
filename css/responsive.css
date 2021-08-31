@@ -456,6 +456,13 @@
     top: 3%;
     right: 7%;
   }
+  .nav-menu{
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+  }
+  .nav-menu.open{
+    transform: translateX(-.1rem);
+  }
   .nav-menu .close-nav-menu{
     top: 2.8%;
     right: 13%;
