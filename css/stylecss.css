@@ -1157,7 +1157,7 @@ span{
 
 
 .contact-section{
-  max-height: 100vh;
+  min-height: 100vh;
 }
 .contact-section .contact-item{
   flex: 0 0 33.33%;
