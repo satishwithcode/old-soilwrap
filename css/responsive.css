@@ -638,6 +638,8 @@
     margin-bottom: 2.5rem;
   }
   .about-section .timeline .timeline-item-inner span{
+    margin: 0 0 .5rem;
+  }
   .about-section .timeline .timeline-item-inner h3{
     font-size: 1.5rem;
     margin: 0 0 .2rem;
