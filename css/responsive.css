@@ -568,7 +568,7 @@
     width: 100%;
     opacity: .8;
     background: url("../img/sunset-425px.jpeg") top right no-repeat;
-    background-size: 100% 87vh;
+    background-size: 100% ;
     position: relative;
   }
   .header{
