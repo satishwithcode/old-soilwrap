@@ -506,7 +506,6 @@ span{
 
 .about-section{
   padding: 8rem 0 0;
-  min-height: 100vh;
 }
 .about-section .about-img{
   flex: 0 0 40%;
