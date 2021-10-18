@@ -692,9 +692,6 @@ span{
 
 
 /*------------------------------------------ service section --------------------------------------------------*/
-.service-section{
-  min-height: 100vh;
-}
 
 .service-section .service-item{
   flex: 0 0 33.33%;
