@@ -566,9 +566,10 @@
 @media(max-width:451px){
   #Home{
     width: 100%;
+    height:87vh;
     opacity: .8;
     background: url("../img/sunset-425px.jpeg") top right no-repeat;
-    background-size: 100% ;
+    background-size: 100% 87vh;
     position: relative;
   }
   .header{
