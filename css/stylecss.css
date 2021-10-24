@@ -125,7 +125,7 @@ span{
 }
 #Home{
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   background: url("../img/sunset.jpg")  top right no-repeat;
   background-size: cover;
   background-position: center;
