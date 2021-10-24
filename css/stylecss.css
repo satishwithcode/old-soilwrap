@@ -128,6 +128,7 @@ span{
   height: 100vh;
   background: url("../img/sunset.jpg")  top right no-repeat;
   background-size: cover;
+  background-position: center;
 }
 #Home:before {
   content: "";
