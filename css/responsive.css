@@ -238,11 +238,6 @@
   }  
 }
 @media(max-width:768px){
-  #Home{
-    background-image: url(../img/sunset-768px.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
-  }
   .header{
     padding:0;
     top: 2rem;
