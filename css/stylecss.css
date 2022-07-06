@@ -759,130 +759,95 @@ span{
 
 /*----------------------------------------------- team-section ----------------------------------------------*/
 .team-section{
-  padding: 8rem 0 4rem;
-}
-
+    padding: 4rem 0 4rem;
+  }
+  
 .team-section .card{
-  flex: 0 0 32%;
-  max-width:32%;
-  height: 41rem;
-  margin: 2rem .9rem;
-  padding: 2rem 0;
-  display: flex;
-  flex-direction: column;
-  box-shadow: var(--outer-shadow);
-  border-radius: .5rem;
-  transition:0.5s ease-in-out;
-}
-.team-section .card:hover{
-  height: 55rem;
+    flex: 0 0 32%;
+    width:32%;
+    margin: 2rem .9rem;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    transition:0.5s ease-in-out;
 }
 .team-section .card-item{
-  display: flex;
-  text-align: center;
-  position:relative;
-  max-width: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 10rem 0;
-}
-.team-section .card .img-box{
-  position: relative;
-  width: 35rem;
-  height: 35rem;
-  top: -6.5rem;
-  left: 4.5%;
-  z-index: 1;
-  box-shadow: var(--outer-shadow);
-}
-.team-section .card .img-box img{
-  max-width: 100%;
-  border-radius: .5rem;
-}
-.team-section .card .content{
-  position: relative;
-  margin-top: -11rem;
-  padding: 1rem 1.5rem;
-  text-align: center;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.5s ease-in-out;
-}
-
-.team-section .card .content h2{
-  font-size: 2rem;
-  font-weight: 600;
-  color: var(--text-black-700);
-}
-.team-section .card .content p{
-  font-size: 1.6rem;
-  color: var(--text-black-600);
-}
-.team-section .card .content .hamburger{
-  display: inline-block;
-  cursor: pointer;
-  padding: .8rem 2rem;
-  border-radius: 3rem;
-  font-size: 1rem;
-  transform: translateX(100%);
-  text-transform: capitalize;
-  transition: all .3s ease;
-  margin-bottom: 1rem;
-}
-.team-section .card .content .hamburger:after{
-  border-radius: 3rem;
-}
-.team-section .card .content span{
-  font-size: 1.8rem;
-  font-weight: 500;
-  line-height: 2rem;
-}
-.team-section .card .content span i{
-  color: var(--text-black-700);
-}
-.team-section .card:hover .content{
-  visibility: visible;
-  opacity: 1;
-  margin-top: 1rem;
-}
-.team-section .card:hover .social-icon{
-  margin-top: 1.5rem;
-}
-
+    display: flex;
+    text-align: center;
+    position:relative;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-section .card .img-box{
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: .5rem;
+  }
+  .team-section .card .img-box img{
+    width: 100%;
+    display: block;
+    transition: transform 1s;
+  }
+  .team-section .card .img-box:hover img{
+    transform: scale(1.1);
+  }
+  .team-section .card .explore-btn{
+    display:block;
+    position:relative;
+    width:100%;
+    text-align:right;
+    top:-4.4rem;
+  }
+  .team-section .card .explore-btn a img{
+    width: 40px;
+    transition: all .3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .team-section .card:hover .explore-btn a img{
+    visibility:visible;
+    opacity: 1;
+  }
+  .team-section .card .content h2{
+    font-weight: 600;
+    color: var(--text-black-700);
+    text-shadow: var(--outer-shadow);
+  }
 /*----------------------------------------- click btn in team section --------------------------------------*/
 
+
 .team-popup{
-  background-color: var(--bg-black-50);
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0;
-  visibility: hidden;
-  overflow-y: auto;
-}
-.team-popup.open{
-  visibility: visible;
-  opacity: 1;
-  z-index: 999;
-  transition: all .3s ease-in;
-}
-.team-popup .close-popup-menu{
-  position: absolute;
-  right: 14.5%;
-  border-radius: 50%;
-  height: 4rem;
-  width: 4rem;
-  line-height: 3.5rem;
-  text-align: center;
-  font-size: 4rem;
-  color: var(--text-black-600);
-  cursor: pointer;
-  top: 1.5rem;
-  transition: all .3s ease;
-}
+    background-color: var(--bg-black-50);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .team-popup.open{
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+    transition: all .3s ease-in;
+  }
+  .team-popup .close-popup-menu{
+    position: absolute;
+    right: 14.5%;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    line-height: 3.5rem;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--text-black-600);
+    cursor: pointer;
+    top: 1.5rem;
+    transition: all .3s ease;
+  }
 .team-popup .close-popup-menu:after{
   border-radius: 50%;
 }
@@ -1275,3 +1240,4 @@ footer .copy{
   padding: 1rem;
   color: var(--text-black-700);
 }
+
