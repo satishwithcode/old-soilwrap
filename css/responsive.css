@@ -4,52 +4,16 @@
     right:2%;
     top: 4%;
   }  
-  .team-section .card{
-    height: 36rem;
-    margin: 1rem .4rem;
-    padding: 0;
-  }
-  .team-section .card:hover{
-    height: 52rem;
-  }
-  .team-section .card-item{
-    padding: 1rem 0;
-  }
-  .team-section .card .img-box{
-    width: 30rem;
-    height: 30rem;
-    left: 6.5%;
-  }
-  .team-section .card .content{
-    margin-top: -14.5rem;
-  }
-  .team-section .card .content p{
-    font-size: 1.4rem;
-  }
-  .team-section .card:hover .content{
-    margin-top: 2rem;
-  }
-  .team-section .card .content .hamburger{
-    transform: translateX(80%);
-    margin-bottom: 1rem;
-  }
-  .team-section .card .social-icon{
-    top: -1rem;
-    width: 100%;
-  }
-  .team-section .card:hover .social-icon{
-    margin-top: -1rem;
-  }
-  .team-section .card .social-icon a{
-    margin: .5rem;
-  }
+  
   .team-popup .close-popup-menu{
     right: 9%;
     top: 6%;
   }
 }
 @media(max-width:1024px){
-  
+  .container{
+    max-width: 100rem;
+  }
   .header{
     padding:0;
     top: 2.5rem;
@@ -88,50 +52,15 @@
     max-width: 98%;
     padding: 1rem;
   }
-  .team-section .card{
-    height: 32.9rem;
-    margin: 1rem .4rem;
-    padding: 0;
-  }
-  .team-section .card:hover{
-    height: 48.5rem;
-  }
   .team-section .card-item{
-    padding: 1rem 0;
-  }
-  .team-section .card .img-box{
-    width: 28rem;
-    height: 28rem;
-  }
-  .team-section .card .content{
-    margin-top: -14.5rem;
-  }
-  .team-section .card .content p{
-    font-size: 1.4rem;
-  }
-  .team-section .card:hover .content{
-    margin-top: -2rem;
-  }
-  .team-section .card .content .hamburger{
-    transform: translateX(80%);
-    margin-bottom: 1rem;
-  }
-  .team-section .card .social-icon{
-    top: -4rem;
-    width: 100%;
-  }
-  .team-section .card:hover .content{
-    margin-top: -1rem;
-  }
-  .team-section .card:hover .social-icon{
-    margin-top: 3rem;
-  }
-  .team-section .card .social-icon a{
-    margin: .5rem;
+    padding: 1rem 1rem;
   }
   .team-popup .close-popup-menu{
     right: 9%;
     top: 6%;
+  }
+  .team-popup .tp-img .check-about-img .social-icon a{
+    margin-left: 0;
   }
   .contact-section .w-50{
     flex: 0 0 50%;
@@ -154,29 +83,15 @@
     flex: 0 0 50%;
     width: 50%;
   }
-  .team-section .card{
-    flex: 0 0 50%;
-    max-width: 46%;
-    height: 43rem;
-    margin:10rem 1.5rem;
-  }
-  .team-section .card:hover{
-    height: 57rem;
-  }
   .team-section .card-item{
-    position: relative;
-    display:contents;
-    padding: 4rem 0;
+    display: grid;
+    justify-content: center;
+    width: 100%;
   }
-  .team-section .card .img-box{
-    width:36rem;
-    height: 36rem;
-  }
-  .team-section .card .content{
-    margin-top: -10rem;
-  }
-  .team-section .card:hover .content{
-    margin-top: 1rem;
+  .team-section .card{
+    justify-content: center;
+    flex: 0 0 100%;
+    width: 100%;
   }
   .team-popup .close-popup-menu{
     right: 9%;
@@ -209,33 +124,7 @@
     top: 4%;
     right: 2.5%;
   }
-  .team-section .card{
-    flex: 0 0 50%;
-    max-width: 46%;
-    height: 38rem;
-    margin:10rem 1.5rem;
-  }
-  .team-section .card:hover{
-    height: 53rem;
-  }
-  .team-section .card-item{
-    position: relative;
-    display:contents;
-    padding: 4rem 0;
-  }
-  .team-section .card .img-box{
-    width:32rem;
-    height: 32rem;
-  }
-  .team-section .card .content{
-    margin-top: -10rem;
-  }
-  .team-section .card:hover .content{
-    margin-top: 1rem;
-  }
-  .team-section .card .social-icon{
-    top: -5rem;
-  }  
+  
 }
 @media(max-width:768px){
   .header{
@@ -331,35 +220,7 @@
     margin: .8rem .7rem;
   }  
   .team-section .card{
-    flex: 0 0 100%;
-    max-width: 60%;
-    height: 45rem;
-    margin: 0 15rem;
-    margin-bottom: 10rem;   
-  }
-  .team-section .card-item{
-    position: relative;
-    display:inline-table;
-  }
-  .team-section .card:hover{
-    height: 60.5rem;
-  }
-  .team-section .card .img-box{
-    width: 37rem;
-    height: 37rem;
-    left: 10%;
-  }
-  .team-section .card:hover .content{
-    margin-top: 3rem;
-  }
-  .team-section .card:hover .social-icon{
-    top: -5.5rem;
-  }
-  .team-section .card .social-icon{
-    top: -4rem;
-  }
-  .team-section .card .content .hamburger{
-    transform: translateX(120%);
+    margin: 10px -2px;
   }
   .team-popup .close-popup-menu{
     right: 9%;
@@ -420,34 +281,7 @@
     top: 4%;
     right: 8%;
   }
-  .team-section .card{
-    flex: 0 0 100%;
-    max-width: 100%;
-    height: 49rem;
-    margin: 0 5rem;
-    margin-bottom: 10rem;   
-  }
-  .team-section .card:hover{
-    height: 62rem;
-  }
-  .team-section .card-item{
-    position: relative;
-    display:inline-table;
-  }
-  .team-section .card .img-box{
-    width: 40rem;
-    height: 40rem;
-    left: 8.5%;
-  }
-  .team-section .card .content{
-    margin-top: -8rem;
-  }
-  .team-section .card:hover .content{
-    margin-top: 3rem;
-  }
-  .team-section .card .social-icon{
-    top: -2rem;
-  }
+  
   .team-popup .tp-img .check-about-img{
     padding: 1rem;
   }
@@ -482,6 +316,7 @@
   .about-section .about-img{
     flex: 0 0 100%;
     max-width: 98%;
+  }
 }
 @media(max-width:512px){
   .header .hamburger-btn{
@@ -492,34 +327,7 @@
     top: 4%;
     right: 8%;
   }
-  .team-section .card{
-    flex: 0 0 100%;
-    max-width: 100%;
-    height: 42rem;
-    margin: 0 5rem;
-    margin-bottom: 10rem;   
-  }
-  .team-section .card:hover{
-    height: 57rem;
-  }
-  .team-section .card-item{
-    position: relative;
-    display:inline-table;
-  }
-  .team-section .card .img-box{
-    width: 35rem;
-    height: 35rem;
-    left: 7.3%;
-  }
-  .team-section .card .content{
-    margin-top: -8rem;
-  }
-  .team-section .card:hover .content{
-    margin-top: 3rem;
-  }
-  .team-section .card .social-icon{
-    top: -6rem;
-  }
+  
 }
 @media(max-width:480px){
   #Home{
@@ -536,18 +344,7 @@
     top: 4%;
     right: 8%;
   }
-  .team-section .card{
-    flex: 0 0 100%;
-    max-width: 98%;
-    height: 47rem;
-    margin: 0 1rem;
-    margin-bottom: 10rem;   
-  }
-  .team-section .card .img-box{
-    width: 40rem;
-    height: 40rem;
-    left: 6.5%;
-  }
+  
   .service-section .service-item-inner{
     flex: 0 0 100%;
     max-width: 97%;
@@ -574,7 +371,7 @@
   }
   .header .hamburger-btn{
     top: 4%;
-    right: 4.5%;
+    right: 1.4%;
   }
   .nav-menu{
     transition: all 0.9s ease;
@@ -585,7 +382,7 @@
   }
   .nav-menu .close-nav-menu{
     top: 4%;
-    right: 10.5%;
+    right: 7.7%;
   }
   .nav-menu ul li a{
     font-size: 2rem;
@@ -646,38 +443,9 @@
     font-size: 1.5rem;
     margin: 1rem 0 0;
    }
-  .team-section .card .img-box{
-    width: 33.5rem;
-    height: 33.5rem;
-    top: -6.5rem;
-    left:5.8%;
-  }
-  .team-section .card{
-    flex: 0 0 100%;
-    max-width: 98%;
-    height: 41rem;
-    margin: 0 3rem;
-    margin-bottom: 15rem;   
-  }
-  .team-section .card:hover{
-    height: 56rem;
-  }
-  .team-section .card .content{
-    margin-top: -11.8rem;
-  }
-  .team-section .card:hover .content{
-    margin-top: 1.5rem;
-  }
-  .team-section .card:hover .social-icon{
-    margin-top: 3rem;
-  }
-  .team-section .card .social-icon{
-    width: 100%;
-    top: -3rem;
-  }
-  .team-section .card .content .hamburger{
-    transform: translateX(100%);
-  }
+   .team-section .card .content h2{
+    transform: translateY(-20px);
+   }
   .team-popup .close-popup-menu{
     right: 5%;
     top: 6%;
@@ -751,18 +519,10 @@
     top: 2rem;
     left: .5rem;
   }
-  .header .hamburger-btn{
-    top: 4%;
-    right: 5%;
-  }
   .header .logo .krishna-img{
     width: 6rem;
     height: 6rem;
     opacity: .8;
-  }
-  .nav-menu .close-nav-menu{
-    top: 4%;
-    right: 12%;
   }
    .section-title h3{
     font-size: 2rem;
@@ -817,44 +577,7 @@
     flex: 0 0 100%;
     max-width: 95%;
   }
-  .team-section{
-    padding: 8rem 0 1rem;
-  }
-  .team-section .card-item{
-    height: 80vh;
-  }
-  .team-section .card .img-box{
-    width: 31.8rem;
-    height: 31.8rem;
-    top: -6.5rem;
-    left:6.5%;
-  }
-  .team-section .card{
-    flex: 0 0 100%;
-    max-width: 86%;
-    height: 38rem;
-    margin: 0 3rem;
-    margin-bottom: 15rem;   
-  }
-  .team-section .card:hover{
-    height: 52rem;
-  }
-  .team-section .card-item{
-    position: relative;
-    display:inline-table;
-  }
-  .team-section .card .content{
-    margin-top: -11rem;
-  }
-  .team-section .card:hover .content{
-    margin-top: 1rem;
-  }
-  .team-section .card .social-icon{
-    top:-4rem;
-  }
-  .team-section .card:hover .social-icon{
-    margin-top: 3rem;
-  }
+  
   .team-popup .close-popup-menu{
     right: 5%;
     top: 6%;
@@ -928,7 +651,7 @@
     padding:0 .5rem;
   }
   footer .copy p{
-    font-size: 1.85rem;
+    font-size: 1.6rem;
   }
     
 }
@@ -936,18 +659,9 @@
   .effect-3{
     left: 40%;
   }
-  .team-section .card .img-box{
-    width: 31rem;
-    height: 31rem;
-    top: -6.5rem;
-    left:7.5%;
-  }
-  .team-section .card{
-    flex: 0 0 100%;
-    max-width: 100%;
-    height: 38rem;
-    margin: 0 1rem;
-    margin-bottom: 15rem;   
+  .nav-menu .close-nav-menu{
+    top: 4%;
+    right: 9%;
   }
   .team-popup .tp-img .check-about-img .img-box img{
     height: 40vh;
@@ -960,10 +674,7 @@
   }
 }
 @media(max-width:377px){
-  .header .hamburger-btn{
-    top: 4%;
-    right: 5.5%;
-  }
+
   .style-switcher{
     width: 10rem;
   }
@@ -982,19 +693,7 @@
   .about-section .about-img .img-box img{
     height: 50vh;
   }
-  .team-section .card .img-box{
-    width: 31rem;
-    height: 31rem;
-    top: -6.5rem;
-    left:6.5%;
-  }
-  .team-section .card{
-    flex: 0 0 100%;
-    max-width: 100%;
-    height: 38rem;
-    margin: 0 1rem;
-    margin-bottom: 15rem;   
-  }
+  
   .team-popup .tp-img .check-about-img .img-box img{
     height: 40vh;
   }
@@ -1032,10 +731,7 @@
     top: 2rem;
     left: .5rem;
   }
-  .header .hamburger-btn{
-    top: 4%;
-    right: 6.5%;
-  }
+
   .header .logo .krishna-img{
     width: 5rem;
     height: 5rem;
@@ -1078,44 +774,7 @@
   .about-section .about-img .img-box img{
     height: 50vh;
   }
-  .team-section .card .img-box{
-    width: 25.5rem;
-    height: 25.5rem;
-    top: -4rem;
-    left:6.5%;
-  }
-  .team-section .card{
-    flex: 0 0 100%;
-    max-width: 100%;
-    height: 32rem;
-    margin: 0 1rem;
-    margin-bottom: 9rem;   
-  }
-  .team-section .card:hover{
-    height: 51rem;
-  }
-  .team-section .card .content{
-    margin-top: -13rem;
-  }
-  .team-section .card:hover .content{
-    margin-top: 1rem;
-  }
-  .team-section .card .social-icon a{
-    padding: .7rem;
-    font-size: 2.3rem;
-  }
-  .team-section .card:hover .content{
-    margin-top: 3rem;
-  }
-  .team-section .card:hover .social-icon{
-    top: -4rem;
-  }
-  .team-section .card .social-icon{
-    top: -3rem;
-  }
-  .team-section .card .content .hamburger{
-    transform: translateX(60%);
-  }
+  
   .team-popup .tp-img .check-about-img .img-box img{
     width: 95.5%;
     height: 35vh;
@@ -1143,5 +802,5 @@
   }
   footer .copy p{
     font-size: 1.5rem;
-  }
+ }
 }
