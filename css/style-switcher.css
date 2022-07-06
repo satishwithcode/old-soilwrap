@@ -71,3 +71,10 @@
 .style-switcher .color-5{
     background-color: #cc3a3b;
 }
+
+
+@media(max-width:451px){
+    .style-switcher .s-icon{
+        margin-right: 1.2rem;
+    }
+}
