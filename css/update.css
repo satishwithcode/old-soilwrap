@@ -51,6 +51,6 @@
   .service-section .img-card-inner .img-resize{
     height: 25rem;
     width: 32rem;
-    object-fit: cover;
+    object-fit: unset;
     object-position: center center;
   }
