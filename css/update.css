@@ -11,7 +11,7 @@
     transform: translateY(-140px);
     opacity: 0;
     visibility: hidden;
-    transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
   }
   .service-section .img-card-inner .project-show-btn a{
     font-size: 15px;
