@@ -34,7 +34,12 @@
       width: 50%;
     }
   }
-  
+  @media(max-width:425px){
+    .service-section .img-card {
+      flex: 0 0 100%;
+      width: 100%;
+    }
+  }
   .service-section .img-card-inner{
     border-radius: .5rem;
     padding: 1rem;
